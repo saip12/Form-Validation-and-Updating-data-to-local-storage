@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+
+
+<title>javascript</title>
+<link type=text/css rel = "stylesheet" href="style.css" />
+</head>
+<body>
+<form method="GET" id= "myForm">
+<table>
+  <tr>
+    <td>First Name</td><td><input type="text" class="hid"  id = "name" onKeyUp="myFunction()" ></td>
+  </tr>
+  <tr><td><div id="first"  class="hide"  style="color:red" ></div><td></tr>
+  <tr> 
+    <tr>
+    <td>Last Name</td><td><input type="text" class="hid" id = "lname" onkeyup="myFunctio()"></td>
+  </tr>
+  <tr><td><div id="last"  class="hid"  style="color:red"></div><td></tr>
+  <tr>
+    <td>Email</td><td><input type="email" class="hid" id = "mail" onkeyup="myFuncti()"></td>
+  </tr>
+  <tr>
+    <td><div id="emai" class="hid"   style="color:red"></div><td>
+  </tr>
+  <tr>
+    <td>User Name</td><td><input class="hid" type="text" id = "usernam" onkeyup="myFunct()"></td>
+  </tr>
+  <tr>
+    <td><div id="user" class="hid"   style="color:red"></div><td>
+  </tr>
+  <tr>
+    <td>Password</td><td><input type="password" class="hid" id = "pwd"  onkeyup="myFunc()"></td>
+  </tr>
+  <tr>
+    <td><div id="pass" class="hid"   style="color:red"></div><td>
+  </tr>
+  <tr>
+    <td>Gender</td><td>  <div class="text-input">
+      
+        <input class="form-control hid" type="radio" name="gender" id="mal" value="male" />
+        <label for="male">Male</label>
+        <input class="form-control hid" type="radio" name="gender" id="femal" value="female" />
+        <label for="female">Female</label>
+    </div><td>
+  </tr>
+  <tr>
+    <td><div id="gen" class="hide" style="color:red"></div><td>
+  </tr>
+
+</table>
+  <br>
+<br>
+</form>
+<input type="submit" value="Register" id="sub" onclick="onRegister()">
+<br>
+<br>
+<table border= '1' id="regTable">
+  <tr>
+    <th class ="head">First Name</th>
+    <th>Last Name</th>
+    <th>Email</th>
+    <th>User Name</th>
+    <th>Gender</th>
+  </tr>
+  
+</table>
+
+
+
+<script src="script.js"></script>
+
+</body>
